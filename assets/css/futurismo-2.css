@@ -1,0 +1,274 @@
+
+@font-face {
+    font-family: 'League Spartan';
+    src: url('../fonts/leaguespartan-bold.eot');
+    src: url('../fonts/leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/leaguespartan-bold.woff2') format('woff2'),
+         url('../fonts/leaguespartan-bold.woff') format('woff'),
+         url('../fonts/leaguespartan-bold.ttf') format('truetype'),
+         url('../fonts/leaguespartan-bold.svg#league_spartanbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Collegiate';
+    src:url('../fonts/Collegiate.ttf.woff') format('woff'),
+        url('../fonts/Collegiate.ttf.svg#Collegiate') format('svg'),
+        url('../fonts/Collegiate.ttf.eot'),
+        url('../fonts/Collegiate.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+font-family: 'Super Grotesk Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Super Grotesk Regular'), url('king_super_grotesk.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Super Grotesk Medium';
+font-style: normal;
+font-weight: normal;
+src: local('Super Grotesk Medium'), url('king_super_grotesk_medium.woff') format('woff');
+}
+
+body {
+
+  font-family: 'Super Grotesk Regular';
+  font-size:22px;
+  color:rgba(0,0,0,.84);
+  font-weight: 400;
+    font-style: normal;
+    font-size: 21px;
+    line-height: 1.58;
+    letter-spacing: -.003em;
+}
+
+
+a {
+  font-family: 'League Spartan';
+  color: rgba(12, 12, 10, 0.8);
+  text-decoration: none; }
+
+a:hover {
+  color: #bc4e4a; }
+
+.colors{
+   -webkit-animation:colorchange 60s infinite alternate;
+}
+ 
+@keyframes colorchange {
+    0% {
+        background-color:#fff;
+        color:#000;
+    }
+    25% {
+        background-color:#f6f3ea;
+        color:#000;
+    }
+    50% {
+        background-color:#9c9c9a;
+        color:#f6f3ea;
+    }
+    50% {
+        background-color:#121212;
+        color:#000;
+    }
+    100% {
+        background-color:#f6f3ea;
+        color:#000;
+    }
+}
+
+main {
+  margin: 10vh 23vw;
+  height: 80vh;
+  width: 54vw;
+  display: grid;
+  grid-template-rows: 2fr 25px 1fr 25px 1fr 25px 1fr 25px 2fr;
+  grid-template-columns: 25px 1fr 25px 1fr 50px;
+  grid-gap: 1px; 
+}
+
+.mained{
+    margin: 10vh 23vw;
+    height: 80vh;
+    width: 54vw;
+    font-family: 
+}
+
+h1 {
+  grid-row: 3 / 8;
+  grid-column: 1 / -1;
+}
+
+h1, h2 {
+  font-family: 'League Spartan';
+  text-transform: uppercase;
+  margin: 0;
+  align-self: center;
+  justify-self: center;
+  display: block;
+  font-size: 2.29vw;
+  margin: 0.14em 0 0 0;
+  padding: 0;
+  line-height: 0.7; }
+
+h1.part1 {
+  grid-row: 3; 
+}
+
+h1.part2 {
+  grid-row: 7;
+  /*font-size: 10vw;*/ 
+}
+
+/*h1 span:first-child {
+  grid-row: 1;
+}
+h1 span:last-child {
+  grid-row: 5;
+} */
+h2 {
+  grid-row: 5 / 6;
+  grid-column: 1 / -1;
+  align-self: center;
+  justify-self: center;
+  /*font-size: 8.2vw;*/ 
+}
+
+.rect {
+  background: #bc4e4a; }
+
+.rect1 {
+  grid-row: 1;
+  grid-column: 1; }
+
+.rect2 {
+  grid-row: 1;
+  grid-column: 3; }
+
+.rect3 {
+  grid-row: 2;
+  grid-column: 1 / -1; }
+
+.rect4 {
+  grid-row: 4;
+  grid-column: 1 / -1; }
+
+.rect5 {
+  grid-row: 6;
+  grid-column: 1 / -1; }
+
+.rect6 {
+  grid-row: 8;
+  grid-column: 1 / -1; }
+
+.rect7 {
+  grid-row: 9;
+  grid-column: 1; }
+
+.circle1 {
+  grid-row: 1;
+  grid-column: 5; }
+
+.circle2 {
+  grid-row: 9;
+  grid-column: 5;
+  align-self: self-end; 
+  color:#bc4e4a;
+}
+
+g circle {
+  stroke-dasharray: 700;
+  stroke-dashoffset: 700;
+  stroke-linecap: butt;
+  -webkit-transition: all 2s ease-out;
+  -moz-transition: all 2s ease-out;
+  -ms-transition: all 2s ease-out;
+  -o-transition: all 2s ease-out;
+  transition: all 2s ease-out;
+}
+g:hover circle {
+  fill: #000;
+  color:#f6f3ea;
+  stroke-dashoffset: 0;
+  stroke-dasharray: 700;
+  stroke-width: 10;
+}
+
+nav,
+.bar {
+background: #fff;
+padding: 1.04rem 3vw 0.9rem;
+ 
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 0.5px;
+font-size: 0.85rem;
+bottom: 0;
+position: fixed;
+}
+
+ 
+  nav ol,
+  .bar ol {
+    columns: 180px;
+    column-gap: 4rem; }
+    nav ol li,
+    .bar ol li {
+      text-align: left;
+      margin: 0;
+      padding: 0;
+      break-inside: avoid; }
+
+ /* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+    h1 {
+        font-size: 4vw;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 4vw;
+    }
+}
