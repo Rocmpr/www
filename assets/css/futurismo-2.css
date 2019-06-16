@@ -106,7 +106,7 @@ h1 {
   grid-column: 1 / -1;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: 'League Spartan';
   text-transform: uppercase;
   margin: 0;
@@ -135,6 +135,14 @@ h1 span:last-child {
 } */
 h2 {
   grid-row: 5 / 6;
+  grid-column: 1 / -1;
+  align-self: center;
+  justify-self: center;
+  /*font-size: 8.2vw;*/ 
+}
+
+h3 {
+  grid-row: 3 / 5;
   grid-column: 1 / -1;
   align-self: center;
   justify-self: center;
