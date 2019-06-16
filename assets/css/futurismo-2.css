@@ -209,6 +209,11 @@ g:hover circle {
   stroke-width: 10;
 }
 
+.title1{
+  font-family: 'Collegiate';
+  font-size: 1.5;
+}
+
 nav,
 .bar {
 background: #fff;
