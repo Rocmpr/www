@@ -172,6 +172,7 @@ code {
 
 mark, .highlighted {
   background: #D18582;
+  color:#000;
 }
 
 .first-letter {
