@@ -150,6 +150,49 @@ h3 {
   line-height: 1; 
 }
 
+blockquote {
+  font-family: "Super Grotesk Regular", serif;
+  font-size: 30px;
+  font-style: italic;
+  letter-spacing: -0.36px;
+  line-height: 44.4px;
+  overflow-wrap: break-word;
+  margin: 55px 0 33px 0;
+  /* text-align: center; */
+  color: rgba(0, 0, 0, 0.68);
+  padding: 0 0 0 50px;
+}
+
+code {
+  font-size: 18px;
+  background: rgba(0,0,0,.05);
+  border-radius: 2px;
+  padding: 3px 5px;
+}
+
+mark, .highlighted {
+  background: #7DFFB3;
+}
+
+.first-letter {
+  overflow-wrap: break-word;
+  font-family: "Super Grotesk Medium", serif;
+  font-size: 60px;
+  line-height: 60px;
+  display: block;
+  position: relative;
+  float: left;
+  margin: 0px 7px 0 -5px;
+}
+
+.subtitle {
+  font-family: "Super Grotesk Regular", sans-serif;
+  color: rgba(0, 0, 0, 0.54);
+  margin: 0 0 24px 0;
+}
+
+::selection{background-color: lavender}
+
 .rect {
   background: #bc4e4a; }
 
@@ -209,12 +252,7 @@ g:hover circle {
   stroke-dasharray: 700;
   stroke-width: 10;
 }
-
-.title1{
-  font-family: 'Collegiate';
-  font-size: 1.5;
-}
-
+ 
 nav,
 .bar {
 background: #fff;
@@ -227,7 +265,6 @@ font-size: 0.85rem;
 bottom: 0;
 position: fixed;
 }
-
  
   nav ol,
   .bar ol {
