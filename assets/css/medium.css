@@ -1,4 +1,29 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Lora|Playfair+Display:700i,900');
+@font-face {
+    font-family: 'League Spartan';
+    src: url('../fonts/leaguespartan-bold.eot');
+    src: url('../fonts/leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/leaguespartan-bold.woff2') format('woff2'),
+         url('../fonts/leaguespartan-bold.woff') format('woff'),
+         url('../fonts/leaguespartan-bold.ttf') format('truetype'),
+         url('../fonts/leaguespartan-bold.svg#league_spartanbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+ 
+@font-face {
+font-family: 'Super Grotesk Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Super Grotesk Regular'), url('king_super_grotesk.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Super Grotesk Medium';
+font-style: normal;
+font-weight: normal;
+src: local('Super Grotesk Medium'), url('king_super_grotesk_medium.woff') format('woff');
+}
 
 html,
 body {
@@ -18,14 +43,14 @@ a,
 }
 
 h1 {
-  font-family: "Playfair Display", serif;
+  font-family: "League Spartan", serif;
   font-size: 48px;
   text-align: left;
   margin-bottom: 8px;
 }
 
 h2 {
-  font-family: "Lato", sans-serif;
+  font-family: "Super Grotesk Medium", sans-serif;
   font-size: 26px;
   font-weight: 700;
   padding: 0;
@@ -37,7 +62,7 @@ h2 {
 
 p, i, a {
   margin-top: 21px;
-  font-family: "Lora";
+  font-family: "Super Grotesk Regular";
   font-size: 21px;
   letter-spacing: -0.03px;
   line-height: 1.58;
@@ -48,7 +73,7 @@ a {
 }
 
 blockquote {
-  font-family: "Playfair Display", serif;
+  font-family: "Super Grotesk Regular", serif;
   font-size: 30px;
   font-style: italic;
   letter-spacing: -0.36px;
@@ -73,7 +98,7 @@ mark, .highlighted {
 
 .first-letter {
   overflow-wrap: break-word;
-  font-family: "Playfair Display", serif;
+  font-family: "Super Grotesk Medium", serif;
   font-size: 60px;
   line-height: 60px;
   display: block;
@@ -83,7 +108,7 @@ mark, .highlighted {
 }
 
 .subtitle {
-  font-family: "Lato", sans-serif;
+  font-family: "Super Grotesk Regular", sans-serif;
   color: rgba(0, 0, 0, 0.54);
   margin: 0 0 24px 0;
 }
