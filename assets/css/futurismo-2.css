@@ -350,7 +350,7 @@ cite {
   font-style:normal;
 }
 small {
-  font:100 1em/1em "merriweather";
+  font-size:8px;
 }
 
 footer {
