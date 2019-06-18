@@ -299,6 +299,10 @@ table.customTable thead {
   background-color: #FFFFFF;
 }
 
+.Agile{
+  margin-bottom: 25px;
+}
+
 ul.circledot {
   list-style-type: circle;
   color: #bc4e4a;
@@ -309,7 +313,7 @@ ul.squaredot {
   list-style-type: square;
   color: #bc4e4a;
   font-style: color:#000;
-  
+
 }
 
 ol.romandot {
