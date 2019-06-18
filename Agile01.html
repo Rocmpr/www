@@ -20,6 +20,13 @@
     ================================================== -->
     <script src="assets/js/textblock.js"></script>
     <script src="assets/js/jquery-3.4.1.js"></script>
+    <script>
+       $(function() {
+          $('q').click(function() {
+             window.location = $(this).attr('cite');
+          });
+       });
+    </script>
 
     <!-- Edit this JSON code to scale text elements. -->
 
@@ -183,15 +190,7 @@ Agile puede aplicarse a grupos pequeños, que normalmente responden bien a situa
         <p><a href="index.html">inicio</a></p>
     </div>
 
- 
 
-<script>
-   $(function() {
-      $('q').click(function() {
-         window.location = $(this).attr('cite');
-      });
-   });
-</script>
  
 </body>
 
