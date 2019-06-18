@@ -299,6 +299,24 @@ table.customTable thead {
   background-color: #FFFFFF;
 }
 
+ul.circledot {
+  list-style-type: circle;
+  color: #bc4e4a;
+}
+
+ul.squaredot {
+  list-style-type: square;
+  color: #bc4e4a;
+}
+
+ol.romandot {
+  list-style-type: upper-roman;
+}
+
+ol.abcdot {
+  list-style-type: lower-alpha;
+}
+
  /* For mobile phones: */
 [class*="col-"] {
   width: 100%;
