@@ -339,10 +339,10 @@ footer > h1 {
 ol {
   padding-left:1.5em;
 }
-a {
+span {
   cursor:pointer;
 }
-a:hover {
+span:hover {
   color:#caccc9;
   background-color:#222;
 }
