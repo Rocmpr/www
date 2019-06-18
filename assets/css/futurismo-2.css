@@ -325,7 +325,7 @@ footer {
 }
 
 footer {
-  color: #FCFCFC;
+  color: #000;
   /*background: url();*/
   background-position: center; 
   background-repeat: no-repeat;
@@ -352,12 +352,17 @@ cite {
 small {
   font:100 1em/1em "merriweather";
 }
+
 footer {
   border-top:1px solid #aaa;
 }
 
 footer p {
   text-indent:0;
+}
+
+footer ol li {
+  font-size: 10px;
 }
 
  /* For mobile phones: */
