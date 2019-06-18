@@ -343,8 +343,10 @@ span {
   cursor:pointer;
 }
 span:hover {
-  color:#caccc9;
-  background-color:#222;
+/*  color:#caccc9;
+  background-color:#222;*/
+  background: #D18582;
+  color:#FFF;
 }
 cite {
   font-style:normal;
