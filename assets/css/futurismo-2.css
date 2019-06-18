@@ -302,11 +302,14 @@ table.customTable thead {
 ul.circledot {
   list-style-type: circle;
   color: #bc4e4a;
+  font-style: color:#000;
 }
 
 ul.squaredot {
   list-style-type: square;
   color: #bc4e4a;
+  font-style: color:#000;
+  
 }
 
 ol.romandot {
