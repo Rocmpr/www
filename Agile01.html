@@ -158,7 +158,7 @@ Agile puede aplicarse a grupos pequeños, que normalmente responden bien a situa
  
  <br>
        <ol class="romandot">
-        <li id='#bib01'>Manifesto for Agile Software Development <sup><a>https://www.agilealliance.org/agile101/the-agile-manifesto/</a></sup></li>
+        <li id='#bib01'>Manifesto for Agile Software Development <sup><a href="https://www.agilealliance.org/agile101/the-agile-manifesto/" target="_blank">1</a></sup></li>
         <li id='#bib02'></li>
         <li id='#bib03'></li>
         <li id='#bib04'></li>
@@ -181,6 +181,14 @@ Agile puede aplicarse a grupos pequeños, que normalmente responden bien a situa
     <div class="bar">
         <p><a href="index.html">inicio</a></p>
     </div>
+
+<script>
+   $(function() {
+      $('q').click(function() {
+         window.location = $(this).attr('cite');
+      });
+   });
+</script>
 
 <script>
    var quotes = document.getElementsByTagName('q');
