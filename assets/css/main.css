@@ -401,6 +401,20 @@ footer ol li {
     }
 
     nav .bar p {font-size:0.75rem;}
+
+    footer {
+        border-top:10px solid #D18582;
+      }
+
+      footer p {
+        text-indent:0;
+      }
+
+      footer ol li {
+        display:inline-block;
+        font-size: 10px;
+        text-align: left;
+      }
   
 }
 
