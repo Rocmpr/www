@@ -279,7 +279,7 @@ position: fixed;
       break-inside: avoid; }
 
 nav .bar h2 {
-      margin-bottom: 150px;
+      margin-bottom: 180px;
 };
 
 table.customTable {
@@ -396,7 +396,6 @@ footer ol li {
 
     .rotatetitle {
       margin-left: -50%;
-        margin-bottom: 150px;
       }
 }
 
@@ -417,7 +416,6 @@ footer ol li {
 
   .rotatetitle {
     margin-left: -50%;
-    margin-bottom: 150px;
   }
 }
 
