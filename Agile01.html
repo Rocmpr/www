@@ -20,6 +20,7 @@
     ================================================== -->
     <script src="assets/js/textblock.js"></script>
     <script src="assets/js/jquery-3.4.1.js"></script>
+        <script src="assets/js/pcir.js"></script>
     <script>
        $(function() {
           $('q').click(function() {
@@ -180,20 +181,6 @@ Agile puede aplicarse a grupos pequeños, que normalmente responden bien a situa
         <p><a href="index.html">inicio</a></p>
     </div>
 
-<script>
-  {
-  const circles = pack(Array.from({length: n}, () => ({r: 15 + Math.random() * 15})));
-  const root = footer`<svg width="${width}" height="${height}" viewBox="${bounds(circles, 1).join()}">
-  <g fill="bc4e4a" stroke="bc4e4a"></g>
-</svg>`;
-  yield root;
-  const g = root.firstElementChild;
-  for (const {x, y, r} of circles) {
-    g.appendChild(svg`<circle cx="${x}" cy="${y}" r="${r}">`);
-    yield root;
-  }
-}
-</script>
  
 </body>
 
