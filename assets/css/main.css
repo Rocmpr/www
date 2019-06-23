@@ -278,10 +278,6 @@ position: fixed;
       padding: 0;
       break-inside: avoid; }
 
-nav .bar h2 {
-      margin-bottom: 180px;
-};
-
 table.customTable {
   width: 100%;
   background-color: #FFFFFF;
@@ -394,10 +390,8 @@ footer ol li {
         font-size: 4vw;
     }
 
-    .rotatetitle {
-      margin-left: -50%;
-          margin-bottom: 185px;
-      }
+    nav .bar p {font-size:0.75rem;}
+  
 }
 
 @media only screen and (min-width: 768px) {
@@ -415,10 +409,7 @@ footer ol li {
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
 
-  .rotatetitle {
-    margin-left: -50%;
-    margin-bottom: 185px;
-  }
+
 }
 
 @media only screen and (max-width: 600px) {
