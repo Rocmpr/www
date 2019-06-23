@@ -374,6 +374,7 @@ footer p {
 footer ol li {
   display:inline-block;
   font-size: 10px;
+  text-align: center;
 }
 
  /* For mobile phones: */
