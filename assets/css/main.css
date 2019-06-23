@@ -371,7 +371,7 @@ footer p {
   text-indent:0;
 }
 
-footer ol li {
+footer ol{
   display:inline-block;
   font-size: 10px;
   text-align: center;
@@ -410,7 +410,7 @@ footer ol li {
         text-indent:0;
       }
 
-      footer ol li {
+      footer ol {
         display:inline-block;
         font-size: 10px;
         text-align: left;
