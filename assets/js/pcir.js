@@ -3,7 +3,7 @@ var canvas = document.getElementById("footerCanvas");
 var context = canvas.getContext("2d");
 
 // add click handler
-canvas.onMouseOver = function(e) {
+canvas.onClick = function(e) {
   var pos = getMousePos(canvas, e);     // get position as before
   context.fillStyle = randomColor();    // get the fill color
 
