@@ -1,12 +1,5 @@
-// https://observablehq.com/@mbostock/packing-circles-inside-a-rectangle@105
-export default function define(runtime, observer) {
-  const main = runtime.module();
-  main.variable(observer()).define(["md"], function(md){return(
-md`# Packing Circles inside a Rectangle
-
-Exploring a variant on Wang et al.’s [circle-packing algorithm](https://github.com/d3/d3-hierarchy/blob/master/README.md#pack).`
-)});
-  main.variable(observer("viewof n")).define("viewof n", ["html"], function(html)
+ 
+main.variable(observer("viewof n")).define("viewof n", ["html"], function(html)
 {
   const form = html`<form><input name=i type=number min=0 value=500 step=1 style="width:80px;"> <i>circles</i></form>`;
   form.oninput = () => form.value = form.i.valueAsNumber;
