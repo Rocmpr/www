@@ -336,6 +336,14 @@ footer > h1 {
   text-shadow: 1px 1px 4px #00000080;
 }
 
+footer > h2 {
+  text-shadow: 1px 1px 3px #00000080;
+}
+
+footer > h3 {
+  text-shadow: 1px 1px 2px #00000080;
+}
+
 ol {
   padding-left:1.5em;
 }
