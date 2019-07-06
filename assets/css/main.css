@@ -235,6 +235,18 @@ mark, .highlighted {
   align-self: self-end; 
   color:#bc4e4a;
 }
+.circle21 {
+  grid-row: 9;
+  grid-column: 4;
+  align-self: self-end; 
+  color:#bc4e4a;
+}
+.circle20 {
+  grid-row: 9;
+  grid-column: 3;
+  align-self: self-end; 
+  color:#bc4e4a;
+}
 
 g circle {
   stroke-dasharray: 700;
