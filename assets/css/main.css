@@ -36,14 +36,12 @@ font-weight: normal;
 src: local('Super Grotesk Medium'), url('king_super_grotesk_medium.woff') format('woff');
 }
 
-<<<<<<< HEAD
+  
 html,
 body {
-  cursor:none;
+     cursor: url(../img/cur.png), auto;
 }
-
-=======
->>>>>>> parent of 063561f... Styles cursor update
+ 
 body {
 
   font-family: 'Super Grotesk Regular';
@@ -54,32 +52,21 @@ body {
     font-size: 21px;
     line-height: 1.58;
     letter-spacing: -.003em;
- 
+    cursor: url(../img/cur.png), auto;
 }
 
-img {
-  width: 16px;
-  transition: width .2s;
-}
  
-
 a {
   font-family: 'League Spartan';
   color: rgba(12, 12, 10, 0.8);
   text-decoration: none; 
- 
+    cursor: url(../img/cur.png), auto;
  }
 
 a:hover {
   color: #bc4e4a; }
 
-.cursor {
-  position: absolute;
-    z-index: 99;
-    pointer-events: none;
-
-}
-
+ 
 .colors{
    -webkit-animation:colorchange 60s infinite alternate;
 }

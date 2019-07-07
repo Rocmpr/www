@@ -11,15 +11,15 @@
 }
 
 
-<<<<<<< HEAD
+
 html * {
   box-sizing: border-box; 
    cursor: url(../img/cur.png), auto;
 }
-=======
+
 * {
   box-sizing: border-box; }
->>>>>>> parent of 063561f... Styles cursor update
+
 
 body {
   margin: 0;
