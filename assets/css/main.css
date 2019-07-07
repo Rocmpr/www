@@ -65,7 +65,10 @@ a {
 
 a:hover {
   color: #bc4e4a; 
-  cursor: url(../img/cur.png), -moz-zoom-in;
+  cursor: url(../img/cur.png), auto;
+      cursor: -moz-zoom-in; 
+    cursor: -webkit-zoom-in; 
+    cursor: zoom-in;
 }
 
  
