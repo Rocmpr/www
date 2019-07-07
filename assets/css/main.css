@@ -497,7 +497,7 @@ footer ol{
 
 }
 
-svg.colors{
+g.colors{
    -webkit-animation:colorchange 60s infinite alternate;
 }
 
