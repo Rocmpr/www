@@ -58,7 +58,10 @@ a {
  cursor: url(../img/cur.png), auto;}
 
 a:hover {
-  color: #bc4e4a; }
+  color: #bc4e4a; 
+  cursor: url(../img/curlink.png), auto;
+  transition: 2s;
+}
 
 ul {
   list-style: none;
