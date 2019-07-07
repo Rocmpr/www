@@ -38,7 +38,6 @@ src: local('Super Grotesk Medium'), url('king_super_grotesk_medium.woff') format
 
 html,
 body {
-   
   cursor:none;
 }
 
@@ -54,13 +53,18 @@ body {
     letter-spacing: -.003em;
  
 }
+
+img {
+  width: 16px;
+  transition: width .2s;
+}
  
 
 a {
   font-family: 'League Spartan';
   color: rgba(12, 12, 10, 0.8);
   text-decoration: none; 
- 
+ cursor:none;
  }
 
 a:hover {
