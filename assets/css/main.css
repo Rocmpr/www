@@ -36,11 +36,14 @@ font-weight: normal;
 src: local('Super Grotesk Medium'), url('king_super_grotesk_medium.woff') format('woff');
 }
 
+<<<<<<< HEAD
 html,
 body {
   cursor:none;
 }
 
+=======
+>>>>>>> parent of 063561f... Styles cursor update
 body {
 
   font-family: 'Super Grotesk Regular';
