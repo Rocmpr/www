@@ -36,8 +36,10 @@ font-weight: normal;
 src: local('Super Grotesk Medium'), url('king_super_grotesk_medium.woff') format('woff');
 }
 
-html *{
-   cursor: url(../img/cur.png), auto;
+html,
+body {
+   
+  cursor:none;
 }
 
 body {
@@ -50,7 +52,7 @@ body {
     font-size: 21px;
     line-height: 1.58;
     letter-spacing: -.003em;
- cursor: url(../img/cur.png), auto;
+ 
 }
  
 
@@ -58,7 +60,7 @@ a {
   font-family: 'League Spartan';
   color: rgba(12, 12, 10, 0.8);
   text-decoration: none; 
- cursor: url(../img/cur.png), auto;
+ 
  }
 
 a:hover {
