@@ -12,7 +12,9 @@
 
 
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box; 
+   cursor: url(../img/cur.png), auto;
+}
 
 body {
   margin: 0;

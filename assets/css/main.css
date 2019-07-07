@@ -36,6 +36,10 @@ font-weight: normal;
 src: local('Super Grotesk Medium'), url('king_super_grotesk_medium.woff') format('woff');
 }
 
+*{
+   cursor: url(../img/cur.png), auto;
+}
+
 body {
 
   font-family: 'Super Grotesk Regular';
