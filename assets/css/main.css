@@ -102,8 +102,8 @@ main {
   height: 80vh;
   width: 54vw;
   display: grid;
-  grid-template-rows: 2fr 25px 1fr 25px 1fr 25px 1fr 25px 2fr;
-  grid-template-columns: 25px 1fr 25px 1fr 50px;
+  grid-template-rows: 2fr 25px 1fr 25px 1fr 25px 1fr 25px 2fr ;
+  grid-template-columns: 25px 1fr 25px 1fr 50px 1fr;
   grid-gap: 1px; 
 }
 
@@ -256,12 +256,12 @@ mark, .highlighted {
 
 .circle21 {
   grid-row: 9;
-  grid-column: 4;
+  grid-column: 5;
   color:#bc4e4a;
 }
 .circle22 {
   grid-row: 9;
-  grid-column: 5;
+  grid-column: 6;
   color:#bc4e4a;
 
 }
