@@ -66,6 +66,13 @@ a {
 a:hover {
   color: #bc4e4a; }
 
+.cursor {
+  position: absolute;
+    z-index: 99;
+    pointer-events: none;
+
+}
+
 .colors{
    -webkit-animation:colorchange 60s infinite alternate;
 }
