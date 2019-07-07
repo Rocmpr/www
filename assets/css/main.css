@@ -64,7 +64,9 @@ a {
  }
 
 a:hover {
-  color: #bc4e4a; }
+  color: #bc4e4a; 
+  cursor: url(../img/cur.png), -moz-zoom-in;
+}
 
  
 .colors{
