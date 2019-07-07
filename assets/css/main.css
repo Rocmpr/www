@@ -497,3 +497,64 @@ footer ol{
 
 }
 
+g.colors{
+   -webkit-animation:colorchange 60s infinite alternate;
+}
+
+ 
+@-webkit-keyframes colorchange {
+    0% {
+        border-color:   ;
+        color: #222;
+    }
+
+    10% {
+        border-color: #179393;
+        color: #179393;
+    }
+
+    20% {
+        border-color: #c42328;
+        color: #c42328;
+    }
+
+    30% {
+        border-color: #4878b6;
+        color: #4878b6;
+    }
+
+    40% {
+        border-color: #eec400;
+        color: #eec400;
+    }
+
+    50% {
+        border-color: #f29217;
+        color: #f29217;
+    }
+
+    60% {
+        border-color: #64976f;
+        color: #64976f;
+    }
+
+    70% {
+        border-color: #098ab2;
+        color: #098ab2;
+    }
+
+    80% {
+        border-color: #985276;
+        color: #985276;
+    }
+
+    90% {
+        border-color: #c9224e;
+        color: #c9224e;
+    }
+
+    100% {
+        border-color: #222;
+        color: #222;
+    }
+}
