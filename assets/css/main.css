@@ -36,14 +36,9 @@ font-weight: normal;
 src: local('Super Grotesk Medium'), url('king_super_grotesk_medium.woff') format('woff');
 }
 
-<<<<<<< HEAD
 html,
 body {
   cursor:none;
-=======
-*{
-   cursor: url(../img/cur.png), auto;
->>>>>>> parent of 3c6573c... styles update
 }
 
 body {
