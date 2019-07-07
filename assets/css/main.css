@@ -48,7 +48,7 @@ body {
     letter-spacing: -.003em;
 }
 
-html *, body * {
+body * {
   cursor: none !important;
 }
 
