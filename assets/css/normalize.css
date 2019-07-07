@@ -9,6 +9,7 @@ html {
   font-family: sans-serif; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
+  cursor: url(../img/cur.png), auto;
 }
 
 /**
@@ -17,6 +18,7 @@ html {
 
 body {
   margin: 0;
+  cursor: url(../img/cur.png), auto;
 }
 
 /* HTML5 display definitions
