@@ -17,6 +17,7 @@
 body {
   margin: 0;
   overflow:auto;
+   cursor: url(../img/cur.png), auto;
 }
 
 html {
@@ -46,7 +47,8 @@ h4 {
 
 a {
   color: rgba(12, 12, 10, 0.8);
-  text-decoration: none; }
+  text-decoration: none; 
+ cursor: url(../img/cur.png), auto;}
 
 a:hover {
   color: #bc4e4a; }
