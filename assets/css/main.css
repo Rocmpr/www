@@ -25,7 +25,7 @@
 font-family: 'Space Grotesk Regular';
 font-style: normal;
 font-weight: normal;
-src: local('Space Grotesk Regular'), url('../fonts/SpaceGrotexk-Regular.woff') format('woff');
+src: local('Space Grotesk Regular'), url('../fonts/SpaceGrotesk-Regular.woff') format('woff');
 }
 
 
@@ -33,28 +33,28 @@ src: local('Space Grotesk Regular'), url('../fonts/SpaceGrotexk-Regular.woff') f
 font-family: 'Space Grotesk Medium';
 font-style: normal;
 font-weight: normal;
-src: local('Space Grotesk Medium'), url('../fonts/SpaceGrotexk-Medium.woff') format('woff');
+src: local('Space Grotesk Medium'), url('../fonts/SpaceGrotesk-Medium.woff') format('woff');
 }
 
 @font-face {
 font-family: 'Space Grotesk Light';
 font-style: normal;
 font-weight: lighter;
-src: local('Space Grotesk Light'), url('../fonts/SpaceGrotexk-Light.woff') format('woff');
+src: local('Space Grotesk Light'), url('../fonts/SpaceGrotesk-Light.woff') format('woff');
 }
 
 @font-face {
 font-family: 'Space Grotesk SemiBold';
 font-style: normal;
 font-weight: bold;
-src: local('Space Grotesk SemiBold'), url('../fonts/SpaceGrotexk-SemiBold.woff') format('woff');
+src: local('Space Grotesk SemiBold'), url('../fonts/SpaceGrotesk-SemiBold.woff') format('woff');
 }
 
 @font-face {
 font-family: 'Space Grotesk Bold';
 font-style: normal;
 font-weight: normal;
-src: local('Space Grotesk Bold'), url('../fonts/SpaceGrotexk-Bold.woff') format('woff');
+src: local('Space Grotesk Bold'), url('../fonts/SpaceGrotesk-Bold.woff') format('woff');
 }
   
 html,
@@ -185,7 +185,7 @@ h3 {
 }
 
 blockquote {
-  font-family: "Super Grotesk Regular", serif;
+  font-family: "Space Grotesk Regular", serif;
   font-size: 30px;
   font-style: italic;
   letter-spacing: -0.36px;
@@ -211,7 +211,7 @@ mark, .highlighted {
 
 .first-letter {
   overflow-wrap: break-word;
-  font-family: "Super Grotesk Medium", serif;
+  font-family: "Space Grotesk Medium", serif;
   font-size: 60px;
   line-height: 60px;
   display: block;
@@ -221,7 +221,7 @@ mark, .highlighted {
 }
 
 .subtitle {
-  font-family: "Super Grotesk Regular", sans-serif;
+  font-family: "Space Grotesk Regular", sans-serif;
   color: rgba(0, 0, 0, 0.54);
   margin: 0 0 24px 0;
 }
