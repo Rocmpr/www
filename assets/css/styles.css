@@ -10,6 +10,51 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Collegiate';
+    src:url('../fonts/Collegiate.ttf.woff') format('woff'),
+        url('../fonts/Collegiate.ttf.svg#Collegiate') format('svg'),
+        url('../fonts/Collegiate.ttf.eot'),
+        url('../fonts/Collegiate.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+font-family: 'Space Grotesk Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Space Grotesk Regular'), url('../fonts/SpaceGrotexk-Regular.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Space Grotesk Medium';
+font-style: normal;
+font-weight: normal;
+src: local('Space Grotesk Medium'), url('../fonts/SpaceGrotexk-Medium.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Space Grotesk Light';
+font-style: normal;
+font-weight: lighter;
+src: local('Space Grotesk Light'), url('../fonts/SpaceGrotexk-Light.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Space Grotesk SemiBold';
+font-style: normal;
+font-weight: bold;
+src: local('Space Grotesk SemiBold'), url('../fonts/SpaceGrotexk-SemiBold.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Space Grotesk Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Space Grotesk Bold'), url('../fonts/SpaceGrotexk-Bold.woff') format('woff');
+}
 
 
 html * {
@@ -40,17 +85,22 @@ img {
 /* --------------------------------------------------------*/
 h1{
     font-size:4vw;
+      font-family: 'Space Grotesk Bold';
 }
 h1, h2, h3 {
   margin: 0;
   /*text-transform: uppercase;*/
-  line-height: 1.2; }
+  line-height: 1.2; 
+  font-family: 'Space Grotesk Bold';
+}
 
 h4 {
   font-size: 1rem;
   font-weight: 400;
   margin: 0.1rem 0 0.2rem;
-  line-height: 1.2; }
+  line-height: 1.2; 
+  font-family: 'Space Grotesk SemiBold';
+}
 
 a {
   color: rgba(12, 12, 10, 0.8);

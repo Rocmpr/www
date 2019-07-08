@@ -22,20 +22,40 @@
 }
 
 @font-face {
-font-family: 'Super Grotesk Regular';
+font-family: 'Space Grotesk Regular';
 font-style: normal;
 font-weight: normal;
-src: local('Super Grotesk Regular'), url('king_super_grotesk.woff') format('woff');
+src: local('Space Grotesk Regular'), url('../fonts/SpaceGrotexk-Regular.woff') format('woff');
 }
 
 
 @font-face {
-font-family: 'Super Grotesk Medium';
+font-family: 'Space Grotesk Medium';
 font-style: normal;
 font-weight: normal;
-src: local('Super Grotesk Medium'), url('king_super_grotesk_medium.woff') format('woff');
+src: local('Space Grotesk Medium'), url('../fonts/SpaceGrotexk-Medium.woff') format('woff');
 }
 
+@font-face {
+font-family: 'Space Grotesk Light';
+font-style: normal;
+font-weight: lighter;
+src: local('Space Grotesk Light'), url('../fonts/SpaceGrotexk-Light.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Space Grotesk SemiBold';
+font-style: normal;
+font-weight: bold;
+src: local('Space Grotesk SemiBold'), url('../fonts/SpaceGrotexk-SemiBold.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Space Grotesk Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Space Grotesk Bold'), url('../fonts/SpaceGrotexk-Bold.woff') format('woff');
+}
   
 html,
 body {
@@ -44,7 +64,7 @@ body {
  
 body {
 
-  font-family: 'Super Grotesk Regular';
+  font-family: 'Space Grotesk Regular';
   font-size:22px;
   color:rgba(0,0,0,.84);
   font-weight: 400;
@@ -57,7 +77,7 @@ body {
 
  
 a {
-  font-family: 'League Spartan';
+  font-family: 'Space Grotesk Regular';
   color: rgba(12, 12, 10, 0.8);
   text-decoration: none; 
     cursor: url(../img/cur.png), auto;
@@ -117,10 +137,11 @@ main {
 h1 {
   grid-row: 3 / 8;
   grid-column: 1 / -1;
+  font-family: 'Space Grotesk Bold';
 }
 
 h1, h2, h3 {
-  font-family: 'League Spartan';
+  font-family: 'Space Grotesk SemiBold';
   text-transform: uppercase;
   margin: 0;
   align-self: center;
