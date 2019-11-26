@@ -37,8 +37,6 @@ src: local('Super Grotesk Medium'), url('../fonts/king_super_grotesk_medium.woff
 }
 
 
-
-  
 html,
 body {
      cursor: url(../img/cur.png), auto;
@@ -267,7 +265,6 @@ mark, .highlighted {
   color:#bc4e4a;
 
 }
-
 
 g circle {
   stroke-dasharray: 700;
