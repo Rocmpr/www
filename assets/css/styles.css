@@ -517,7 +517,7 @@ span.glitch {
     backface-visibility: hidden;
     position: absolute;
     animation: move;
-    animation-duration: 45;
+    animation-duration: 15;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
